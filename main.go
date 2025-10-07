@@ -1,12 +1,10 @@
 package main
 
 import (
-	"github.com/vinicosta1/GoVanList.Api/handler"
-	"github.com/gin-gonic/gin"
+	"github.com/vinicosta1/GoVanList.Api/routes"
 )
 
 func main() {
-	router := gin.Default()
-	router.GET("/response", handler.GetResponse)
-	router.Run()
+	router := routes.SetupRouter()
+	router.Run(":8080")
 }

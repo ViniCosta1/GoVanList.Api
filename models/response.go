@@ -1,9 +1,4 @@
-package model
-
-const (
-	DataDir  = "E:\\Projects\\GoVanList.Api\\data\\"
-	JsonFile = DataDir + "response.json"
-)
+package models
 
 type ResponseData struct {
 	Dia       string   `json:"day"`
