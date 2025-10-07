@@ -1,0 +1,17 @@
+{
+    "data": {
+        "day": "26/09",
+        "people": [
+            "Vinícius"
+        ],
+        "places": [
+            "Prefeitura Nicolau Zarvos",
+            "Ponto de Táxi Santa Casa",
+            "Ponto de Ônibus Sabesp",
+            "Antigo IBIS Hotel",
+            "BSB Avenida São Paulo"
+        ],
+        "warning": "Lembrando que é obrigação de todos estarem 5 minutos antes no ponto",
+        "just_go": false
+    }
+}
